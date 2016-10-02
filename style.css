@@ -1,0 +1,107 @@
+
+@font-face {
+  font-family: 'Fjalla One';
+  src: url('FjallaOne-Regular.ttf') format('truetype');
+}
+
+body {
+  font-family: 'Fjalla One', sans-serif;
+
+  background-color: #303030;
+  color: white;
+
+  background-image: url("background.jpg");
+  background-size: cover;
+}
+
+main {
+  padding-left: 10vw;
+  padding-right: 10vw;
+}
+
+#searchBox {
+  text-align: center;
+
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+
+#searchBox input[type="text"]{
+  width: 78vw;  
+}
+
+#searchBox input[type="submit"] {
+  background-color:  #008CBA;
+  color: white;
+
+  border: none;
+
+  padding-left: 15px;
+  padding-right: 15px;
+
+  height: 32px;
+}
+
+#searchBox input[type="submit"]:hover{
+  background-color: #408CFF;  
+}
+
+.container {
+  font-size: 15px;
+
+  width: 400px;
+
+  margin-right: 2vw;
+  margin-left: 2vw;
+  margin-bottom: 4vh;
+
+  float: left;
+}
+
+.containerHeader {
+  padding-left: 10px;
+  padding-top: 10px;
+
+  font-size: 18px;
+
+  height: 30px;
+
+  color: #white;
+}
+
+.containerContent {
+  background-color: #202020;
+
+  padding: 10px;
+
+  min-height: 300px;
+}
+
+.containerContent ul {
+  list-style: none;
+  padding: unset;
+}
+
+.containerContent > ul li {
+
+  padding-top: 10px;
+  padding-left: 10px;
+  padding-bottom: 10px;
+}
+
+.containerContent > ul li:hover {
+  background-color: #505050;
+}
+
+.containerContent > ul > li a {
+  color: white;
+
+  text-decoration: none;
+}
+
+.containerContent > ul > li a:hover {
+  text-decoration: underline;
+}
+
